@@ -15,7 +15,6 @@ export const defaultModule = "eth";
 const PREFERRED_SERVICE = "preferredService";
 
 export const router = new Router({
-  mode: "history",
   base: process.env.BASE_URL,
   scrollBehavior(to, from, savedPosition) {
     return new Promise((resolve, reject) => {

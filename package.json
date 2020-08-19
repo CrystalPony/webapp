@@ -2,6 +2,7 @@
   "name": "bancor-ui",
   "version": "1.1.71",
   "private": false,
+  "homepage": "./",
   "scripts": {
     "start": "npm run serve",
     "serve": "vue-cli-service serve",
